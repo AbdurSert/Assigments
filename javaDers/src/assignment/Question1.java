@@ -1,4 +1,4 @@
-package assigment;
+package assignment;
 
 public class Question1 {
 

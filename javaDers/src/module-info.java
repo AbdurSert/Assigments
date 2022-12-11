@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author SERT
- *
- */
-module javaDers {
-}

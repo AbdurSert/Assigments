@@ -16,10 +16,10 @@ public class Question8 {
 		Scanner scn = new Scanner(System.in);
 
 		System.out.println("Lutfen adinizi giriniz: ");
-		String inpt1 = scn.next();
+		String inpt1 = scn.nextLine();
 
 		System.out.println("\n" + "Lutfen soy adinizi giriniz: ");
-		String inpt2 = scn.next();
+		String inpt2 = scn.nextLine();
 
 		kisielBilgi(inpt1, inpt2);
 

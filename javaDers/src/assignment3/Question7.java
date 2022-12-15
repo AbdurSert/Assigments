@@ -10,7 +10,7 @@ public class Question7 {
 		System.out.println("Lutfen 4 basamakli bir sayi giriniz: ");
 		int inpt = scn.nextInt();
 
-		if (inpt >= 1000 || inpt <= 9999) {
+		if (inpt > 9999 || inpt < 1000) {
 			System.out.println("\n" + "Gecerli bir sayi giriniz");
 		}
 

@@ -10,7 +10,7 @@ public class Question6 {
 		System.out.println("Lutfen notunuzu giriniz(0-100): ");
 		int inpt = scn.nextInt();
 
-		if (inpt > 80) {
+		if (inpt > 80 && inpt <= 100) {
 
 			System.out.println("\n" + "Notunuz: \" A \" ");
 
@@ -27,10 +27,16 @@ public class Question6 {
 			System.out.println("\n" + "Notunuz: \" C \" ");
 
 		}
-
+		
+		else if(inpt < 50 && inpt >= 0 ) {
+			
+			System.out.println("\n" + "Notunuz: \" D \" ");
+			
+		}
+		
 		else {
 
-			System.out.println("\n" + "Notunuz: \" D \" ");
+			System.out.println("\n" + "Gecerli bir sayi girmediniz");
 		}
 
 	}

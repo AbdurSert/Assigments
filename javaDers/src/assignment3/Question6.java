@@ -16,7 +16,7 @@ public class Question6 {
 
 		}
 
-		else if (inpt >= 60 && inpt <= 80) {
+		else if (inpt > 60 && inpt <= 80) {
 
 			System.out.println("\n" + "Notunuz: \" B \" ");
 
@@ -27,13 +27,13 @@ public class Question6 {
 			System.out.println("\n" + "Notunuz: \" C \" ");
 
 		}
-		
-		else if(inpt < 50 && inpt >= 0 ) {
-			
+
+		else if (inpt < 50 && inpt >= 0) {
+
 			System.out.println("\n" + "Notunuz: \" D \" ");
-			
+
 		}
-		
+
 		else {
 
 			System.out.println("\n" + "Gecerli bir sayi girmediniz");

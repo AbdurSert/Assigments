@@ -23,16 +23,33 @@ public class Question5 {
 			if ((int) password.charAt(password.length() - 1) >= 97
 					&& (int) password.charAt(password.length() - 1) <= 122) {
 
-				if (!password.isBlank()) {
+				if (!password.contains(" ")) {
 
-					if ( password.length() >= 8) {
+					if (password.length() >= 8) {
 
 						System.out.println("\n" + "Sifreniz basariyla olusturulmustur.");
 
 					}
 
+					else {
+
+						System.out.println("\n" + "Sifreniz sartlari saglamiyor");
+
+					}
+
 				}
 
+				else {
+
+					System.out.println("\n" + "Sifreniz sartlari saglamiyor");
+
+				}
+
+			}
+
+			else {
+
+				System.out.println("\n" + "Sifreniz sartlari saglamiyor");
 			}
 
 		}

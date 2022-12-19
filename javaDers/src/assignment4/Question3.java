@@ -9,10 +9,10 @@ public class Question3 {
 		Scanner scn = new Scanner(System.in);
 
 		System.out.println("Lutfen isminizi giriniz: ");
-		String inpt = scn.nextLine();
+		String inpt = scn.nextLine().trim();
 
 		System.out.println("Lutfen soyisminizi giriniz: ");
-		String inpt1 = scn.nextLine();
+		String inpt1 = scn.nextLine().trim();
 
 		int lengthInpt = inpt.length();
 		int lengthInpt1 = inpt1.length();

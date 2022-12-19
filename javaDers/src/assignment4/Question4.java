@@ -9,13 +9,13 @@ public class Question4 {
 		Scanner scn = new Scanner(System.in);
 
 		System.out.println("Ad: ");
-		String inpt = scn.nextLine();
+		String inpt = scn.nextLine().trim();
 
 		System.out.println("Soyad: ");
-		String inpt1 = scn.nextLine();
+		String inpt1 = scn.nextLine().trim();
 
 		System.out.println("Kart numarasi: ");
-		String inpt2 = scn.nextLine();
+		String inpt2 = scn.nextLine().trim();
 
 		if (inpt.isBlank() || inpt1.isBlank() || inpt2.isBlank()) {
 

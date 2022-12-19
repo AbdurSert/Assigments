@@ -18,10 +18,10 @@ public class Question5 {
 
 		String password = scn.nextLine();
 
-		if ((int) password.charAt(0) >= 65 && (int) password.charAt(0) <= 90) {
+		if (password.codePointAt(0) >= 65 && password.codePointAt(0) <= 90) {
 
-			if ((int) password.charAt(password.length() - 1) >= 97
-					&& (int) password.charAt(password.length() - 1) <= 122) {
+			if (password.codePointAt(password.length() - 1) >= 97
+					&& password.codePointAt(password.length() - 1) <= 122) {
 
 				if (!password.contains(" ")) {
 

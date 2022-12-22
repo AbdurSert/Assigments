@@ -1,23 +1,4 @@
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 package assignment4;
 
 public class Question1 {
@@ -26,7 +7,7 @@ public class Question1 {
 
 		String str = "Java ogrenmek123 Cok guzel@";
 
-		String inpt = str.replace("123", "").replace("C", "c").replace("@", "");
+		String inpt = str.replace("123", "").replace("C", "c").replace("@", ".");
 
 		System.out.println(inpt);
 

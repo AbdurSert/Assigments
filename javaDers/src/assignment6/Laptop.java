@@ -1,17 +1,14 @@
 package assignment6;
 
 public class Laptop {
-	
+
 	public Laptop() {
-	
+
 	}
-	
-	
-	
-	
+
 	public Laptop(String marka, String ram, String storage, double ekranBoyutu, int model, String islmeci,
 			String ekranKarti) {
-		
+
 		this.marka = marka;
 		this.ram = ram;
 		this.storage = storage;
@@ -21,9 +18,6 @@ public class Laptop {
 		this.ekranKarti = ekranKarti;
 	}
 
-
-
-
 	String marka;
 	String ram;
 	String storage;
@@ -31,6 +25,5 @@ public class Laptop {
 	int model;
 	String islmeci;
 	String ekranKarti;
-	
 
 }

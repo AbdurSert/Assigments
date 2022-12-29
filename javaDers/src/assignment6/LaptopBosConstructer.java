@@ -48,6 +48,7 @@ public class LaptopBosConstructer {
 		product4.storage = "256 GB SSD";
 		product4.ekranBoyutu = 13.3;
 		product4.model = 2018;
+
 	}
 
 }

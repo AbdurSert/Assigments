@@ -21,13 +21,14 @@ public class Methods {
 	}
 
 	int carp1 = 1;
-	int j = 2;
 
 	void duzensiz() {
 
 		int[][] arr = { { 1, 2, 3 }, { 4, 5 }, { 6 } };
 
 		for (int i = 0; i < arr.length; i++) {
+
+			int j = arr[i].length - (1);
 
 			if (j >= 0) {
 
@@ -88,16 +89,16 @@ public class Methods {
 			for (int j = 0; j < arr[i].length; j++) {
 
 				if (i == 0) {
-					toplam1 += arr[0][j];
+					toplam1 += arr[i][j];
 				}
 
 				else if (i == 1) {
-					toplam2 += arr[1][j];
+					toplam2 += arr[i][j];
 				}
 
 				else {
 
-					toplam3 += arr[2][j];
+					toplam3 += arr[i][j];
 
 				}
 

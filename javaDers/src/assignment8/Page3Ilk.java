@@ -23,7 +23,7 @@ public class Page3Ilk {
 			carpim *= sayi;
 		}
 
-		System.out.println(carpim);
+		System.out.println("\n" + "Girdiginiz sayilarin carpimi: " + carpim);
 	}
 
 }

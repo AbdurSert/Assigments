@@ -8,7 +8,7 @@ public class Page3Son {
 		
 		String yazi = "Bugun havalar cok guzel";
 		
-		String[] arr = yazi.replace(" ", "").split("");
+		String[] arr = yazi.replace(" ", "").trim().split("");
 		
 	
 		int karakterSayisi = arr.length; 

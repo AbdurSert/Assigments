@@ -10,11 +10,11 @@ public class Page1 {
 
 		Methods obj = new Methods();
 
-		obj.carpim();
-		obj.duzensiz();
-		obj.ayniIndex();
+//		obj.carpim();
+//		obj.duzensiz();
+//		obj.ayniIndex();
 		obj.yeniArray();
-		obj.inpt();
+//		obj.inpt();
 
 	}
 }

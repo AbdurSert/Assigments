@@ -20,8 +20,6 @@ public class YasHesap {
 
 		str.append(sonYas);
 
-		System.out.println(str.length());
-
 		System.out.println("\n" + str.subSequence(2, str.length()) + " Yasindasiniz");
 
 	}
@@ -33,6 +31,8 @@ public class YasHesap {
 		LocalDate kullanici = LocalDate.of(tarih, ay, gun);
 
 		Period yas = Period.between(kullanici, date);
+		
+		System.out.println(yas.getMonths());
 
 		System.out.println("\n" + "Ay bazinda " + yas.toString().substring(4, 6) + " yasindasiniz");
 

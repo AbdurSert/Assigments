@@ -42,9 +42,9 @@ public class StringBuild {
 
 		LocalTime sonZaman = LocalTime.now();
 
-		int hour = sonZaman.getHour() - ilkZaman.getHour();
-		int minute = sonZaman.getMinute() - ilkZaman.getMinute();
-		int second = sonZaman.getSecond() - ilkZaman.getSecond();
+		int hour = (sonZaman.getHour()) - (ilkZaman.getHour());
+		int minute = (sonZaman.getMinute()) - (ilkZaman.getMinute());
+		int second = (sonZaman.getSecond()) - (ilkZaman.getSecond());
 
 		System.out.println(
 				"\n" + "isleminiz: " + hour + " saat " + minute + " dakika " + second + " saniyede tamamlanmistir");

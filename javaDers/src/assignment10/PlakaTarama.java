@@ -34,7 +34,9 @@ public class PlakaTarama {
 		araclar.add(arac9.getPlaka());
 
 		Random pick = new Random();
-		String inpt = araclar.get(pick.nextInt(araclar.size()));
+		int random = pick.nextInt(araclar.size());
+		
+		String inpt = araclar.get(random);
 
 		for (int i = 0; i <= araclar.size(); i++) {
 

@@ -16,11 +16,12 @@ public class Personel {
 
 	public int idAtama() {
 
-		int high = 999999;
+		int high = 1000000;
 		int low = 100000;
 
 		Random pick = new Random();
-		id = pick.nextInt(high - low) + low;
+		
+		id = pick.nextInt(high -low) + low;
 
 		return id;
 

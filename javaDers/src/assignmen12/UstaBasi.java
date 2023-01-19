@@ -14,7 +14,7 @@ public class UstaBasi extends Personel {
 
 		maasHesap();
 
-		zam = maas + (maas * 0.15);
+		zam = maas + (maas * 0.18);
 
 		return zam;
 

@@ -13,6 +13,8 @@ public class Main {
 		Isci check = new Isci();
 
 		UstaBasi check1 = new UstaBasi();
+		
+		
 
 		if (inpt == check.isci1.getId()) {
 

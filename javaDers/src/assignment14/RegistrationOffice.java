@@ -7,11 +7,14 @@ public class RegistrationOffice {
 		 super();
 	 }
 
-	void getAStudent() {
+	Student getAStudent(Student a) {
+		
+		return a;
 
 	}
 
-	void regsiterStudent() {
+	void regsiterStudent(Student s) {
+		System.out.println(s + " Kaydoldu");
 
 	}
 

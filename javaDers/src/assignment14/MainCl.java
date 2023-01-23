@@ -19,6 +19,11 @@ public class MainCl {
 		PhdStudent ph1 = new PhdStudent(345345, "Betul", 1995, "11.5.21", "Isletme", true);
 		PhdStudent ph2 = new PhdStudent(178676, "Sinan", 1994, "11.4.21", "Psikoloji", false);
 		
+		RegistrationOffice ro = new RegistrationOffice();
+		
+		ro.regsiterStudent(ms2);
+		System.out.println(ro.getAStudent(ph2));
+		
 		
 		
 		
